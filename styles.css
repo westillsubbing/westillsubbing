@@ -1,0 +1,254 @@
+h1 {
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 20.4px;
+}
+
+h3 {
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 15.4px;
+}
+
+h3 {
+  font-size: 12;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+p {
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+blockquote {
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background: #1C1C1E;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 2px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
+  max-width: 140px;
+}
+
+.profile-name {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.links {
+  text-align: center;
+  margin-top: 16px;
+  background: #2C2C2E;
+  padding: 16px;
+  border-width: 1px;
+  border-color: #3C3C3E;
+  border-radius: 46px;
+  border-style: solid;
+  max-width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 1s;
+}
+
+a:hover {
+  background: #E49FB4;
+  border-color: #E49FB4;
+  transition: background .5s, border .5s;
+}
+
+a:hover .role-capsule {
+  background: #D97795;
+  transition: background .5s, border .5s;
+}
+
+.navigation {
+  display: flex;
+}
+
+.back-button {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: -8px;
+  width: 16px;
+}
+
+.back-button:hover {
+    background: #1C1C1E;
+    border-color: #1C1C1E;
+}
+
+.back-img {
+  display: block;
+  max-height: 29px;
+  max-width: 16px;
+}
+
+.page-title {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-indent: -32px;
+}
+
+.cards {
+  margin-top: 16px;
+  background: #2C2C2E;
+  border-width: 1px;
+  border-color: #3C3C3E;
+  border-radius: 16px;
+  border-style: solid;
+  height: auto;
+  max-width: 460px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 16px;
+}
+
+.card-left {
+  padding-top: 16px;
+  width: 78px;
+}
+
+.card-img {
+  display: block;
+  margin-left: 12px;
+  max-height: 66px;
+  max-width: 66px;
+}
+
+.card-mid {
+  flex-grow: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.card-h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 21px;
+  margin-bottom: 4px;
+}
+
+.card-h3 {
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #EBEBF5;
+  opacity: 80%;
+  line-height: 14px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.card-h4 {
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  color: #EBEBF5;
+  opacity: 80%;
+  line-height: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.roles {
+  display: flex;
+}
+
+.role-capsule {
+  display: inline-block;
+  background: #3C3C3E;
+  border-radius: 16px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 6px;
+}
+
+.card-right {
+  padding-top: 16px;
+  padding-right: 12px;
+}
+
+.twt-icon {
+    display: block;
+    max-height: 20px;
+    max-width: 20px;
+    border-radius: 0%;
+}
+
+.bottom-text {
+  text-align: center;
+  position: static;
+  margin: 16px;
+  padding: 16px;
+}
